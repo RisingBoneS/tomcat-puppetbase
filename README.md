@@ -1,7 +1,7 @@
 Music Group Test
 ================
 
-Install Centos 7.2 on Oracle VM
+**Install Centos 7.2 on Oracle VM**
 
 Virtual Box Network – using Bridged with the following static ip and subnet
 
@@ -13,7 +13,7 @@ Sub: 255.255.xx.xx
 
 Gateway: 192.168.xx.xx
 
-Prep Work:
+**Prep Work:**
 
 yum -y update && yum -y upgrade
 
@@ -35,7 +35,9 @@ vi /etc/hosts
 
 192.168.xx.xx servername servername.example.com
 
-Puppet Installation Install PuppetMaster and Agent on the same Server (notice I've skipped the cert key creation as both master and slave are on the same server):
+**Puppet Installation** 
+
+Install PuppetMaster and Agent on the same Server (notice I've skipped the cert key creation as both master and slave are on the same server):
 
 Go to http://yum.puppetlabs.com/ and copy the download link for the latest version
 
