@@ -57,11 +57,11 @@ puppet module install puppetlabs-tomcat
 
 cd /tmp
 
-git clone https://github.com/RisingBoneS/mysql-puppetbase.git
+git clone https://github.com/RisingBoneS/tomcat-puppetbase.git
 
-cp mysql-puppetbase/puppet.conf /etc/puppet/ (overwrite exisitng one)
+cp tomcat-puppetbase/puppet.conf /etc/puppet/ (overwrite exisitng one)
 
-cp mysql-puppetbase/manifests/site.pp /etc/puppet/manifests/
+cp tomcat-puppetbase/manifests/site.pp /etc/puppet/manifests/
 
 Edit the puppet.conf file and add in the DNS, certname and server of your machine
 
