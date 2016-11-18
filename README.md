@@ -5,7 +5,7 @@ Music Group Test
 
 Virtual Box Network – using Bridged with the following static ip and subnet
 
-Server Name: mgdbsrv1
+Server Name: servername
 
 Ip : 192.168.xx.xx/24
 
@@ -97,4 +97,4 @@ systemctl enable puppet
 
 puppet agent -t
 
-All done you should have a fully working MySQL Server with a database and backups.
+All done you should have a fully working Tomcat Server running Jenkins.
