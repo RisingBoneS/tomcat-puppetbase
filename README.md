@@ -1,6 +1,5 @@
-Music Group Test
-================
-
+Create Puppet Master/Slave Server and install Tomcat
+====================================================
 **Install Centos 7.2 on Oracle VM**
 
 Virtual Box Network – using Bridged with the following static ip and subnet
